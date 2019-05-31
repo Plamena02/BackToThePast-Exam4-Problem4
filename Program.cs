@@ -22,11 +22,9 @@ namespace Past
                 else
                 {
                     m-= 12000 + (50 * v);
-
                 }
                 v += 1;
             }
-            
             if (0<= m)
             { Console.WriteLine("Yes! He will live a carefree life and will have {0:F2} dollars left.",m ); }
             else
